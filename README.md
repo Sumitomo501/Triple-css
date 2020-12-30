@@ -2,7 +2,9 @@
 
 ## 命名規則
 triple- CSS名- 数値
+
 例tp-pt-16
+
 padding-top: 16px;
 
 ## 基本的には四つです
