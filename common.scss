@@ -1,0 +1,20 @@
+/*
+ /__  ___/                                                      //   ) )     //   ) )     //   ) )
+ / /         __       ( )      ___       //      ___         //           ((           ((
+/ /        //  ) )   / /     //   ) )   //     //___) )     //              \\           \\
+/ /        //        / /     //___/ /   //     //           //                 ) )          ) )
+/ /        //        / /     //         //     ((____       ((____/ /    ((___ / /    ((___ / /
+*/
+// 基礎値
+$tp-vals: 16, 24, 32, 40, 48, 56, 64, 80, 96, 128, 160, 200, 240;
+// ループ
+@each $tp-val in $tp-vals {
+    .tp-pt-#{$tp-val} {padding-top: #{$tp-val}px};
+    .tp-pr-#{$tp-val} {padding-right: #{$tp-val}px};
+    .tp-pb-#{$tp-val} {padding-bottom: #{$tp-val}px};
+    .tp-pl-#{$tp-val} {padding-left: #{$tp-val}px};
+    .tp-mt-#{$tp-val} {margin-top: #{$tp-val}px};
+    .tp-mr-#{$tp-val} {margin-right: #{$tp-val}px};
+    .tp-mb-#{$tp-val} {margin-bottom: #{$tp-val}px};
+    .tp-ml-#{$tp-val} {margin-left: #{$tp-val}px};
+}
